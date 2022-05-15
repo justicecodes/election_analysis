@@ -140,7 +140,7 @@ with open(file_to_save, "w") as txt_file:
     top_county_summary = (
         f"-------------------------\n"
         f"Top County: {top_county}\n"
-        f"Top County Vote Count: {county_count:,}\n"
+        f"Top County Vote Count: {winning_county:,}\n"
         f"Top County Percentage: {winning_county_percentage:.1f}%\n"
         f"-------------------------\n")
     print(top_county_summary)

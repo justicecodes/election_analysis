@@ -17,6 +17,6 @@ Denver: 82.8% (306,055)
 Arapahoe: 6.7% (24,801)
 -------------------------
 Top County: Denver
-Top County Vote Count: 24,801
+Top County Vote Count: 306,055
 Top County Percentage: 82.8%
 -------------------------
