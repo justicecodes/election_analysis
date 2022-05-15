@@ -22,16 +22,22 @@ The purpose of this analysis is to certify a vote count report for a US congress
 (This code snippet reads each row in the table and adds one count for the candidate each time their name appears)
 
 ## Election-Audit Summary: 
+
+
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 The code used to provide the report for this election can be modified for other similar counts. The complete set of votes must be provided as a CSV, and the following highlighted code must be altered to match the file path of the new file. 
+
 <img width="573" alt="readcsv" src="https://user-images.githubusercontent.com/103595718/168489139-3f734d8e-130e-4989-9561-a3fa1736b08d.png">
+
 The code provided may be used to count any number of candidates or counties since the code reads each row and only adds new values to the list. Modifications could be made to the headers to count a vote by city or region number. In addition, other columns could be added to denote the party or a second election on the same ballot. The column number read would need to be changed and variable names to better describe what is being counted. The code that counts the candidate votes and votes by county could be copied and reused if the variable names are changed appropriately. 
+
 <img width="456" alt="pypollmodifications" src="https://user-images.githubusercontent.com/103595718/168489475-edf64b8d-703c-4ef3-8552-135a66bbf46f.png">
+
 ---
 Further research was completed to consider the total population of each county in relation to how many votes were included in the report. Although each county has a similar population size, the number of voters from the three counties included in the report vary greatly. Differences could be attributed to different zoning for this particular race (only incorporating parts of some counties or areas with high pop. density). This report may not include all votes or a certain type of ballot, such as leaving out the hand-counted ballots which may be higher in areas without funding to provide electronic voting options. More information and analysis would need to be provided to determine the reason for this discrepancy.  
 ##### Voter turnout by county, as of 2018 US Census Bureau population
 Denver co: 306,055/693,417 = 44.1% 
----
+
 Arapahoe co: 24,801/636,671 = 3.9%
----
+
 Jefferson co: 38,855/570,427 = 6.8%
